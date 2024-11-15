@@ -1,0 +1,17 @@
+nostr-tip-finder/
+├── manifest.json
+├── src/
+│   └── nostr-bundle.js
+├── popup/
+│   ├── popup.html
+│   ├── popup.css
+│   └── popup.js
+├── images/
+│   ├── default-banner.jpg
+│   └── default-avatar.jpg
+├── dist/
+│   └── nostr-bundle.js
+└── icons/
+    ├── icon16.png
+    ├── icon48.png
+    └── icon128.png 

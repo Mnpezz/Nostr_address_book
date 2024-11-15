@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nostr Tip Finder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="banner" id="profileBanner"></div>
+    <div class="search-section">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter name, pubkey or npub...">
+        <div id="searchSuggestions" class="search-suggestions"></div>
+      </div>
+      <button id="searchButton">Search</button>
+    </div>
+    
+    <div class="recent-searches" id="recentSearches">
+      <h3>Recent Searches</h3>
+      <div class="recent-list"></div>
+    </div>
+
+    <div class="favorites" id="favorites">
+      <h3>Favorites</h3>
+      <div class="favorites-list"></div>
+    </div>
+
+    <div class="profile-section" id="profileSection">
+      <div class="profile-header">
+        <img id="profilePicture" class="profile-picture" src="../images/default-avatar.jpg" alt="Profile">
+        <div class="profile-info">
+          <h2 id="profileName"></h2>
+          <p id="profileNpub" class="npub"></p>
+        </div>
+        <button id="favoriteButton" class="favorite-button">Fav</button>
+      </div>
+      <p id="profileAbout" class="about"></p>
+    </div>
+
+    <div id="results" class="results-container">
+      <!-- Results will be populated here -->
+    </div>
+  </div>
+  <script src="../dist/nostr-bundle.js"></script>
+</body>
+</html> 
