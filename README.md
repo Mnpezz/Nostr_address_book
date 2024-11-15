@@ -17,8 +17,8 @@ A Chrome extension that helps you find and manage cryptocurrency tipping address
 ### From Source
 1. Clone this repository:
 bash
-git clone https://github.com/yourusername/nostr-tip-finder.git
-cd nostr-tip-finder
+git clone https://github.com/mnpezz/nostr_address_book.git
+cd nostr-address_book
 
 2. Install dependencies:
 bash
